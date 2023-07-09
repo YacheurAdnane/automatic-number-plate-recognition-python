@@ -5,7 +5,7 @@ The YOLOv3 model is a state-of-the-art object detection algorithm known for its 
 
 1- Download the YOLOv3 model weights file from the following Google Drive link (https://drive.google.com/file/d/1IyIi_OQeMpl0QM34IbgoL0Zxbkt4IBBJ/view?usp=sharing). This model contains pre-trained weights that enable accurate object detection, including license plates.
 
-2- After downloading the YOLOv3 model weights file, add it to the same repository where the code is located. This ensures that the algorithm can access the necessary model weights during runtime.
+2- After downloading the YOLOv3 model weights file, extract  it to the same repository where the code is located. This ensures that the algorithm can access the necessary model weights during runtime.
 
 3- The main code file, license_plate_recognition.ipynb contains the algorithm implementation. You can use this file to perform license plate recognition on images . The algorithm utilizes the YOLOv3 model for license plate detection and then applies advanced optical character recognition (OCR) techniques to extract the alphanumeric characters from the detected plates.
 
