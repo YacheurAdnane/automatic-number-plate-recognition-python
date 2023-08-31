@@ -18,5 +18,8 @@ To use this algorithm, please follow the steps below:
 6- Once you have added the YOLOv3 model weights and installed the dependencies, you can run the license_plate_recognition.py script to start the license plate recognition algorithm.
 
 We hope this algorithm proves useful for your license plate recognition tasks. If you encounter any issues or have suggestions for improvement, please feel free to open an issue on this GitHub repository.
+
 werning : if u get a error from easyocr u must uninstall a version of Pillow library and install the 9.5.0 version buy using ; pip install --user --force-reinstall -v "Pillow==9.5.0"
+
+
 Happy license plate recognition!
